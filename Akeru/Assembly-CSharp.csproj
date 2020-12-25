@@ -65,10 +65,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\Common\SESlider.cs" />
-    <Compile Include="Assets\Script\Common\SoundButton.cs" />
+    <Compile Include="Assets\Script\Common\ClosePanelButton.cs" />
+    <Compile Include="Assets\Script\Common\OpenPanelButton.cs" />
     <Compile Include="Assets\Script\Common\SoundManager.cs" />
     <Compile Include="Assets\Script\Common\BGMSlider.cs" />
-    <Compile Include="Assets\Script\Common\CloseButton.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
