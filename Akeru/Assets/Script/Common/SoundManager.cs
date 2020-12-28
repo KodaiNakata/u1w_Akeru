@@ -14,10 +14,7 @@ using UnityEngine;
 public class SoundManager
 {
     //! BGMの音量
-    private float bgmVolume;
-
-    //! SEの音量
-    private float seVolume;
+    private float bgmVolume = 0.2f;
 
     //! 自クラスのインスタンス 
     private static SoundManager instance;
@@ -51,23 +48,5 @@ public class SoundManager
     public void SetBgmVolume(float volume)
     {
         bgmVolume = volume;
-    }
-
-    /**
-     * @brief SEの音量のゲッター
-     * @return SEの音量
-     */
-    public float GetSeVolume()
-    {
-        return seVolume;
-    }
-
-    /**
-     * @brief SEの音量のセッター
-     * @param[out] volume 音量
-     */
-    public void SetSeVolume(float volume)
-    {
-        seVolume = volume;
     }
 }

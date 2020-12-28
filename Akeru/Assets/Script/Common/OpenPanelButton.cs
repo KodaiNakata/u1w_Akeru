@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 /**
-* @file OpenPanelButton.cs
-* @brief パネルを開くボタンを操作するファイル
-* @author Kodai Nakata
-*/
+ * @file OpenPanelButton.cs
+ * @brief パネルを開くボタンを操作するファイル
+ * @author Kodai Nakata
+ */
 
 /**
  * @class OpenPanelButton
@@ -30,6 +30,7 @@ public class OpenPanelButton : MonoBehaviour
      */
     public void OnClick()
     {
+        Time.timeScale = 0f;
         openPanelObj.transform.GetChild(0).gameObject.SetActive(true);
     }
 }

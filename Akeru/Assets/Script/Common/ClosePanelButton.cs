@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 /**
-* @file ClosePanelButton.cs
-* @brief パネルを閉じるボタンを操作するファイル
-* @author Kodai Nakata
-*/
+ * @file ClosePanelButton.cs
+ * @brief パネルを閉じるボタンを操作するファイル
+ * @author Kodai Nakata
+ */
 
 /**
  * @class ClosePanelButton
@@ -18,6 +18,7 @@ public class ClosePanelButton : MonoBehaviour
      */
     public void OnClick()
     {
+        Time.timeScale = 1f;
         transform.parent.gameObject.SetActive(false);
     }
 }
