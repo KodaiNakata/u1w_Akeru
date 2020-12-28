@@ -64,11 +64,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Script\Common\SESlider.cs" />
+    <Compile Include="Assets\Script\Result\ResultText.cs" />
+    <Compile Include="Assets\Script\Game\GameDirector.cs" />
     <Compile Include="Assets\Script\Common\ClosePanelButton.cs" />
     <Compile Include="Assets\Script\Common\OpenPanelButton.cs" />
+    <Compile Include="Assets\Script\Game\QuitButton.cs" />
+    <Compile Include="Assets\Script\Game\EatButton.cs" />
     <Compile Include="Assets\Script\Common\SoundManager.cs" />
+    <Compile Include="Assets\Script\Common\SchoolChime.cs" />
+    <Compile Include="Assets\Script\Common\ResultManager.cs" />
+    <Compile Include="Assets\Script\Common\MouseController.cs" />
+    <Compile Include="Assets\Script\Game\Teacher.cs" />
     <Compile Include="Assets\Script\Common\BGMSlider.cs" />
+    <Compile Include="Assets\Script\Game\NotEatButton.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
@@ -105,11 +113,17 @@
     <Reference Include="Unity.2D.SpriteShape.Editor">
       <HintPath>C:/Game/u1w_Akeru/Akeru/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Recorder.Editor">
+      <HintPath>C:/Game/u1w_Akeru/Akeru/Library/ScriptAssemblies/Unity.Recorder.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Game/u1w_Akeru/Akeru/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Path.Editor">
       <HintPath>C:/Game/u1w_Akeru/Akeru/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Recorder">
+      <HintPath>C:/Game/u1w_Akeru/Akeru/Library/ScriptAssemblies/Unity.Recorder.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>C:/Game/u1w_Akeru/Akeru/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
@@ -125,6 +139,9 @@
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>C:/Game/u1w_Akeru/Akeru/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Recorder.Base">
+      <HintPath>C:/Game/u1w_Akeru/Akeru/Library/ScriptAssemblies/Unity.Recorder.Base.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
       <HintPath>C:/Game/u1w_Akeru/Akeru/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
