@@ -7,6 +7,10 @@ Unity1weekのお題「あける」の制作リポジトリです。
 
 # ジャンル
 - 2D
+- アクション
 
 # 操作
 - マウスの操作のみ
+
+# 投稿先
+- https://unityroom.com/games/naka-ku_hayaben
